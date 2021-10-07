@@ -1,0 +1,18 @@
+{
+  "name": "visual-pixcap",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olufunbi",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^8.5.0"
+  },
+  "devDependencies": {
+    "cypress-image-snapshot": "^4.0.1",
+    "cypress-xpath": "^1.6.2"
+  }
+}
