@@ -84,7 +84,7 @@ describe('Access Test Instance (Google maps page)', () => {
 
   describe('Verify that the Rivers, parks and beaches are drawn correctly', () => {
     it('Check that the Rivers, the Parks and the Beaches are well drawn', () => {
-    cy.wait(2000)
+    cy.wait(5000)
 
     cy.matchImageSnapshot("Baseline Image", {failureThreshold: 0.05,
       failureThresholdType: 'percent'});
